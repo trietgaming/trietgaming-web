@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["vite/client"],
+    "noEmit": true,
+    "isolatedModules": true,
+    "paths": {
+      "app-hooks/*": ["./src/hooks/*"],
+      "ui-components/*": ["./src/ui-components/*"],
+      "store/*": ["./src/store/*"],
+      "store": ["./src/store/index.ts"],
+      "pages/*": ["./src/pages/*"],
+      "methods/*": ["./src/methods/*"],
+      "components/*": ["./src/components/*"],
+      "types": ["./src/types/index.d.ts"],
+      "app-constants": ["./src/constants/index.ts"],
+      "local-database": ["./src/constants/database.ts"],
+      "classes/*": ["./src/classes/*"],
+      "assets/*": ["./src/assets/*"]
+    }
+  }
+}
